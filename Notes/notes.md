@@ -24,6 +24,7 @@ Requirements depend on the voltage connection level and the active power capacit
 > § 2 Abs. 1 NELEV
 >> Betreiber von Erzeugungsanlagen haben dem zuständigen Netzbetreiber im Rahmen des Betriebserlaubnisverfahrens nach Artikel 29 der Verordnung (EU) 2016/631 nachzuweisen, dass die allgemeinen technischen Mindestanforderungen nach § 19 des Energiewirtschaftsgesetzes eingehalten werden.
 
+
 > § 19 Abs. 4 EnWG
 >> Betreiber von Energieversorgungsnetzen haben die allgemeinen technischen Mindestanforderungen nach Absatz 1 und Absatz 3 unter Berücksichtigung der Vorgaben der Verordnung (EU) 2016/631 der Kommission vom 14. April 2016 zur Festlegung eines Netzkodex mit Netzanschlussbestimmungen für Stromerzeuger (ABl. L 112 vom 27.4.2016, S. 1) zu erstellen.
 
