@@ -1,3 +1,66 @@
 %% Rechtliche Begutachtung
 % Aufgabe 1
 \section{Rechtliche Begutachtung}
+
+In diesem Kapitel erfolgt die rechtliche Begutachtung zum Planungsstand der \num{20} zu installierenden griechischen Kleinwindanlagen in Deutschland. Dabei lässt sich durch unterschiedliche Anschlussbedingungen zwischen drei Situationen unterscheiden:
+
+\begin{enumerate}
+	\item Anschluss am Mittelspannungsnetz in bestehenden Mischparks mit einer Netzanschlussleistung von mindestens \SI{1}{\mw}
+	\item Anschluss am Mittelspannungsnetz ohne Integration in bestehende Strukturen
+	\item Anschluss in Inselnetzen
+\end{enumerate}
+
+Neben den Anschlussbedingungen, sind vor allem die technischen Details der einzelnen \glspl{EZE} dafür entscheidend, welche Netzanschlusszertifizierung zum tragen kommt. In \autoref{tab:TechDetails} finden sich die wichtigsten technischen Details der \glspl{EZE}.
+
+\input{Ch02_tab_techDetailsEZE}
+
+\subsection{Nachweisverfahren für Prototypen}
+
+Mitte \num{2019} wurde bereits eine \gls{EZE} am deutschen Niederspannungsnetz angeschlossen. Dabei kam das Nachweisverfahren für Prototypen gemäß \texttt{VDE-AR-N \num{4110}:\num{2018}} zum Einsatz. Als Prototyp liegt für die \gls{EZE} noch kein Einheitenzertifikat vor. Jedoch müssen für \glspl{EZA} mit Prototypen bereits folgende Unterlagen beim Netzbetreiber eingereicht werden:
+
+\begin{itemize}
+	\item Anschlussanmeldung (\texttt{E.1})
+	\item Datenblatt der \gls{EZA} (\texttt{E.8})
+	\item Datenblatt der elektrischen Eigenschaften der \gls{EZE}
+	\item Abschätzung der elektrischen Eigenschaften der \gls{EZE}
+	\item Elektroplanung der \gls{EZA} (Lastfluss-Berechnung, Wirkleistungssteuerung, statische Spannungshaltung, Schutzkonzept, Abschätzung der Netzrückwirkung)
+	\item Prototypenbestätigung
+\end{itemize}
+
+Die Prototypenbestätigung steht bei Prototypen stellvertretend für das Einheitenzertifikat. Das Einheitenzertifikat muss innerhalb von zwei Jahren nach der Inbetriebnahme des Prototypen ausgestellt werden. Damit alle Anlagen \num{2021} an das Netz gehen können, muss sich darum bemüht werden, die \gls{EZE} baldmöglichtst durch eine Zertfizierungsstelle auf die Einhaltung der Richtlinien und Grid Codes prüfen zu lassen. Das Einheitenzertifikat wird für die Inbetriebnahme der restlichen \glspl{EZA} benötigt. Nach der Ausstellung des Einheitenzertifikats, muss innerhalb eines Jahres das Anlagenzertifikat nachgereicht werden und anschließend die Konformitätserklärung eingeholt werden. \cite{MOEGH2020}
+
+\subsection{Netzanschlusszertifizierung}
+
+In \autoref{tab:EZAVerfahren} finden sich die je nach Anschlussbedingungen anzuwendenden Anschlussregelungen und Zertifizierungen. Eine Begründung für die Einordnung findet sich in den jeweiligen Unterkapiteln.
+
+\input{Ch02_tab_EZAVerfahren}
+
+\subsubsection{Anschluss in einem Mischpark im Mittelspannungsnetz}
+
+Für alle \glspl{EZA} mit Mittelspannungsanschluss mit einer Anschlussleistung von \SI{\geq~950}{\kw} muss eine Zertifizierung des Anlagenzertifikats A nach \texttt{VDE-AR-N \num{4110}} erfolgen. Durch die Vorlage des Zertifikats beim Netzbetreiber, sichert sich der Anlagenbetreiber den Netzanschluss und Vergütung. Dabei sind folgende Dokumente für die Erstellung des Anlagenzertifikats A bereits durch das Nachweisverfahren für Prototypen vorhanden bzw. werden noch innerhalb des Verfahrens ausgestellt:
+
+\begin{itemize}
+	\item Datenblatt der \gls{EZA} (\texttt{E.8})
+	\item Deckblätter der Einheitenzertifikate
+	\item  Elektroplanung der \gls{EZA} (Lastfluss-Berechnung, Wirkleistungssteuerung, statische Spannungshaltung, Schutzkonzept, Abschätzung der Netzrückwirkung)
+\end{itemize}
+
+Weiterhin müssen ebenfalls die technischen Daten der Bestands-\gls{EZE} vorgelegt werden. Außerdem müssen zusätzlich folgende Dokumente angefertigt und vorgelegt werden:
+
+\begin{itemize}
+	\item Netzrückwirkungen der Verbrauchsgeräte (\texttt{E.2})
+	\item Einphasiger Übersichtsschaltplan
+	\item Regelungskonzept inkl. Kommunikationsplan
+	\item Angabe der geplanten Stufenstellerposition der Maschinentransformatoren
+	\item Lageplan inkl. Koordinaten der Erzegungseinheiten
+\end{itemize}
+
+Um den Anschluss im Jahr \num{2021} möglichst zu gewährleisten, sollte frühzeitig Kontakt mit einer Zertifizierungsstelle aufgenommen werden und die Anfertigung aller Unterlagen zum Zeitpunkt der Ausstellung des Einheitenzertifikat im Prototypenverfahren abgeschlossen sein. \cite{MOEG2020}
+
+\subsubsection{Einzelanschluss im Mittelspannungsnetz}
+
+Im Gegensatz zum Anschluss der \gls{EZE} in bestehenden Mischparks, kann bei Einzelanschluss von \glspl{EZA} im Mittelspannungsnetz mit einer Anschlussleistung von \SI{<~135}{\kw} auf die Zertifizierung nach \texttt{VDE-AR-N \num{4105}} zurückgegriffen werden. In diesem Fall ist ein Einheitenzertifikat ausreichend, wobei die Mittelspannungsschaltanlage weiterhin nach \texttt{VDE-AR-N \num{4110}} zertifiziert werden muss. Somit muss in diesen Fällen nur auf die Ausstellung Einheitenzertifikates des Prototypenverfahrens gewartet werden.
+
+\subsubsection{Anschluss im Inselnetz}
+
+Für einen Anschluss im Inselnetz ist keine Zertifizierung nach \texttt{VDE-AR-N} nötig. Somit muss dem Netzbetreiber gegenüber nur der Inselnetzstatus nachgewiesen werden und es müssen keine Zertifikate ausgestellt werden.

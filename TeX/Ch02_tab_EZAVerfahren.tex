@@ -1,0 +1,20 @@
+{
+\renewcommand{\arraystretch}{1.2}% grßerer Zeilenabstand
+\sisetup{
+	range-phrase=~{--}~,% Gedankenstrich statt "bis" bei SIrange
+}
+\begin{table}[H]
+	\begin{center}
+		\caption{Anzuwendende Anschlussregelung und Zertifizierung der Erzeugungsanlagen}
+		\begin{tabu} to \textwidth {X[2] X X}
+			\hline
+			Anschlussbedingungen					&	Anschlussregelung				&	Zertifizierung		\\ \hline
+			Mischpark im Mittelspannungsnetz		&	\texttt{VDE-AR-N \num{4110}}	&	Anlagenzertifikat A	\\
+			Einzelanschluss im Mittelspannungsnetz	&	\texttt{VDE-AR-N \num{4105}}	&	Einheitenzertifikat	\\
+			Inselnetzanschluss						&	{--}							&	{--}				\\ \hline
+		\end{tabu}
+		\label{tab:EZAVerfahren}
+	\end{center}
+	\vspace{-3mm}%Put here to reduce too much white space after your table
+\end{table}
+}

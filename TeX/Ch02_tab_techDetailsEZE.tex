@@ -1,0 +1,19 @@
+{
+\renewcommand{\arraystretch}{1.2}% grßerer Zeilenabstand
+\sisetup{
+	range-phrase=~{--}~,% Gedankenstrich statt "bis" bei SIrange
+}
+\begin{table}[H]
+	\begin{center}
+		\caption{Technische Daten der griechischen Kleinwindanlagen}
+		\begin{tabu} to \textwidth {X X[r]}
+			\hline
+			\multicolumn{2}{c}{Technische Daten}		\\ \hline
+			Nennleistung		&	\SI{100}{\kw}		\\
+			Nabenhöhe			&	\SI{50}{\meter}		\\ \hline
+		\end{tabu}
+		\label{tab:TechDetails}
+	\end{center}
+	\vspace{-3mm}%Put here to reduce too much white space after your table
+\end{table}
+}
